@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>রাত যাগা এসাইন্মেন্ট</title>
+    <link rel="stylesheet" href="মেকাপকরা.css">
+</head>
+<body>
+    <div class="form-area">
+        <form>          
+            <div class="form-group">
+                <label class="form-label" for="name">তোমার অতি সুন্দর নামটা বলে ফেলো:</label>
+                <input onkeypress="" class="form-input" type="text"  id="name" >
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="name">ক্লাস রোল বলে ফেলো:</label>
+                <input class="form-input" type="number" id="classRoll">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="name">বোর্ড রোল বলতেই হবে:</label>
+                <input class="form-input" type="number" id="boardRoll">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="name">নাম্বার বলো যলদি: </label>
+                <input class="form-input" type="number" id="phone">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="name">বাড়ি কই:</label>
+                <input class="form-input" type="text" id="address"textarea id="textbox" cols="80" rows="15">
+            </div>
+            
+            <button onclick="addStudent()" type="button" class="btn" id="btn-add">Add a New Engineer</button>
+        </form>
+    </div>
+
+    <table class="EngineerList">
+        <thead>
+            <tr>
+                <th>ইঞ্জিনিয়ার নং</th>
+                <th>তোমার অতি সুন্দর নাম</th>
+                <th>তোমার ক্লাস রোল</th>
+                <th>তোমার বোর্ড রোল</th>
+                <th>তোমার নাম্বার</th>
+                <th>তোমার বাড়ি</th>
+            </tr>
+        </thead>
+
+        <tbody id="EngineerList">
+        </tbody>
+    </table>
+
+
+
+    <script src="বেকাতেরা.js"></script>
+</body>
+</html>

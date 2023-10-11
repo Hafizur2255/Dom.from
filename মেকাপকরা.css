@@ -1,0 +1,66 @@
+.EngineerList{
+    border: 1px solid rgb(4, 73, 70);
+    border-collapse: collapse;
+    margin-left:300px;
+    padding:5px;
+    background-color:rgb(156, 228, 192);
+}
+
+.EngineerList> tr{
+    border:1px solid rgb(110, 190, 130);
+}
+
+.EngineerList>thead > tr > th{
+    border:1px solid rgb(0, 0, 0);
+    padding:5px;
+}
+
+.EngineerList> tbody > tr > td{
+    border:1px solid rgb(16, 124, 167);
+    padding:5px;
+}
+
+
+.btn{
+    height:40px;
+    padding-left:10px;
+    padding-right:10px;
+    background-color:rgb(202, 12, 75);
+    color:white;
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+    margin-left:160px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    font-weight: bold; 
+    background-color:rgb(118, 231, 12);
+}
+
+.form-input{
+    height:30px;
+    width:100%;
+    outline: none;
+    margin-bottom:10px;
+    background-color:rgb(174, 221, 44);
+    border-radius:5px;
+}
+
+.form-label{
+    font-weight: bold;
+    margin-bottom:10px;
+}
+
+.form-area{
+    width:500px;
+    height:fit-content;
+    border:1px solid rgb(23, 150, 54);
+    margin-bottom:10px;
+    margin-left:422px;
+    padding:20px;
+    border-radius: 5px;
+    background-color:rgb(180, 12, 231);
+    margin-top:50px
+}
